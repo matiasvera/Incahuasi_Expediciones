@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incahuasi Expediciones</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Work+Sans&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/logo_incahuasi.ico">
+    <script src="https://kit.fontawesome.com/e159f65ee0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="menu">
+            <div class="menu-left">
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#expediciones">EXPEDICIONES</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="img/WhatsApp Image 2021-09-24 at 23.13.00.png" width="100%" alt="">
+            </div>
+            <div class="menu-right">
+                <ul>
+                    <li>
+                        <a href="#quienesSomos">QUIENES SOMOS</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-mobile">
+            <div class="menu-open-close">
+                <div class="header">
+                    <div class="img">
+                        <img src="img/WhatsApp Image 2021-09-24 at 23.13.00.png"   alt="">
+                    </div>
+                    <a href="#" id="buttonOpenCloseMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                    </a>
+                </div>
+                <div id="menu-mobile-items" class="menu-mobile-closed">
+                    <ul >
+                        <li>
+                            <a href="index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="#expediciones">EXPEDICIONES</a>
+                        </li>
+                        <li>
+                            <a href="#quienesSomos">QUIENES SOMOS</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--MAIN SCREEN-->
+        <section class="main-video">
+            <div class="video">
+                <video src="video/video presentacion.mp4" autoplay loop muted></video>
+            </div>
+        </section>
+
+        <section class="intro">
+            <h2>BIENVENIDO A TU AVENTURA</h2>
+            <p>
+                Sé parte de una experiencia inolvidable, en presencia de los paisajes naturales más increíbles. 
+                Te garantizamos vivir una aventura, en un ambiente placentero, seguro y de confianza. 
+                Potenciaremos tus habilidades físicas, a través de técnicas específicas.
+                Animate, de nuestra mano, a este desafío libre de prejuicios, primado por el respeto, el compañerismo y el contacto pleno con la naturaleza.
+            </p>
+        </section>
+
+        
+        <!-- EXPEDICIONES -->
+        <section id="expediciones">
+            <h2>EXPEDICIONES</h2>
+            <div class=" grid work">
+                
+                <a href="#" class="item" data-id="0">
+                    <img src="img/Actividades/Tilcara/20210720_112348.jpg" alt="" width="100%">
+                    <div class="bg-hover" data-id="0">
+                        <div class="info">
+                            <div class="title">TILCARA - CALILEGUA</div>
+                            <div class="customer">PROVINCIA DE JUJUY</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="item" data-id="1">
+                    <img src="img/Actividades/Pueblo Escondido/EFFECTS.jpg" alt="" width="100%">
+                    <div class="bg-hover">
+                        <div class="info">
+                            <div class="title">PUEBLO ESCONDIDO</div>
+                            <div class="customer">PROVINCIA DE CÓRDOBA</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="item" data-id="2">
+                    <img src="img/Actividades/Champaqui/20210213_181409.jpg" alt="" width="120%">
+                    <div class="bg-hover">
+                        <div class="info">
+                            <div class="title">CHAMPAQUI</div>
+                            <div class="customer">PROVINCIA DE CÓRDOBA</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="item" data-id="3" >
+                    <img src="img/Actividades/Cerro Tres Picos/IMG_5790.jpg" alt="" width="165%">
+                    <div class="bg-hover">
+                        <div class="info">
+                            <div class="title">CERRO TRES PICOS</div>
+                            <div class="customer">PROVINCIA DE BUENOS AIRES</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="item" data-id="4" >
+                    <img src="img/Actividades/Cerro Serrata/cerro_serrata.jpg" alt="" width="100%">
+                    <div class="bg-hover">
+                        <div class="info">
+                            <div class="title">CERRO SERRATA</div>
+                            <div class="customer">PROVINCIA DE MENDOZA</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="item" data-id="5" >
+                    <img src="img/Actividades/Cerro Penitentes/cerro_penitentes.jpg" alt="" width="100%">
+                    <div class="bg-hover">
+                        <div class="info">
+                            <div class="title">CERRO PENITENTES</div>
+                            <div class="customer">PROVINCIA DE MENDOZA</div>
+                        </div>
+                    </div>
+                </a>   
+            </div>
+        </section>
+        
+        
+        <!--QUIENES SOMOS-->
+        <section id="quienesSomos" class="about">
+            <img class="noimg" src="img/quienessomos.jpg"  alt="">
+            <div    class="about_container">
+                <h2>EQUIPO INCAHUASI</h2>
+                <div class="columns">
+                    <div class="column_img">
+                        <img src="img/equipo.jpg" alt="">
+                    </div>
+                    <div class="column_p">
+                        <p class="about_p">Somos un grupo de amantes de la naturaleza especializados en el desarrollo de expediciones y capacitación en el campo del montañismo.</p>
+                        <p class="about_p">Combinamos el deporte, la diversión y el trabajo en equipo, en un marco de imponentes escenarios naturales.</p>
+                        <p class="about_p">Nuestra verdadera pasión es transmitir conocimientos a quienes tienen el sueño de ascender montañas.</p>
+                        <p class="about_p">Uniendo nuestra experiencia, mediante la profesionalidad y compromiso, intentamos llevar adelante nuestro objetivo: “que quienes se nos acercan, puedan disfrutar de las montañas tanto como lo hacemos nosotros”.</p>
+                        <p class="about_p">Nos enfocamos al 100% en cada detalle para que todo salga a la perfección.</p>
+                        <p class="about_p"><span>Nuestra Misión</span> Brindar conocimientos para que puedan realizar la actividad de manera autónoma, responsable y sustentable.  Para ello, promocionamos el cuidado y las buenas costumbres y así mantener nuestras montañas libres de contaminación.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <!-- CONTACTO-->
+        <section id="contacto" class="contact">
+            <div>
+                <h3 class="contact_h">INFO DE CONTACTO</h3>
+                <ul class="contact_list">
+                    <li><span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span></li>
+                    <li><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></li>
+                </ul>
+            </div>
+            <div class="contact_r">
+                <h3 class="contact_h">NUESTRAS REDES</h3>
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                </div>  
+            </div>
+        </section>
+        <div class="footer">
+            <img class="footer_desk" src="img/footer.svg" alt="">
+            <div>
+                <h1>INCAHUASI EXPEDICIONES</h1>
+                <p>©2022 • Todos los Derechos Reservados </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+
+        GALERIA
+
+    -->
+
+    <div id="details-container">
+        <div class="nav-bar">
+            <div></div>
+            <div class="nav-buttons">
+                <a href="#" id="prev-button">
+                    <span class="material-icons md-48">arrow_back_ios</span>
+                </a>
+                <a href="#" id="next-button">
+                    <span class="material-icons md-48">arrow_forward_ios</span>
+                </a>
+            </div>
+
+            <div class="close">
+                <a href="#" id="close-button"><span class="material-icons md-48">close</span></a>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande">
+                        <img src="img/Actividades/Tilcara/20210719_133526.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_153501.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_183837.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Tilcara/20210720_102013.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto activo">•</li>
+                        <li class="punto">•</li>
+                        <li class="punto">•</li>
+                        <li class="punto">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>TILCARA - CALILEGUA</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Jujuy / Argentina</p>
+                        <p><span>Duración Trekking:</span> 5 Días/ 4 Noches.</p>
+                        <p><span>Dificultad:</span> Moderado / Alto</p>
+                        <p><span>Altura máxima alcanzada:</span> 4.165 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>Es una de los trekkings más atractivas que ofrece el noroeste argentino. Una 
+                            experiencia profunda con la naturaleza y un recorrido milenario, transitando 
+                            antiguos caminos originarios que se convierte en mágicos a medida que se los 
+                            transita, paisajes de profundas y coloridas quebradas, valles y pequeñas 
+                            pampas. El antiguo sendero Incaico nos lleva desde la puna árida de la alta 
+                            montaña a la húmeda selva de la yunga con una inmensidad y diversidad de paisajes.
+                            Se parte desde Tilcara donde tomaremos nuestro respectivo transfer para
+                            acercarnos hasta el hotel cortaderas, lugar donde daremos a inicio a nuestra 
+                            aventura de 4 días y 3 noches, que finalizara en el Parque Nacional Calilegua.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande1">
+                        <img src="img/Actividades/Pueblo Escondido/EFFECTS.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Pueblo Escondido/1487798_504903306295769_1595751696_o.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Pueblo Escondido/20210918_173033.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Pueblo Escondido/WhatsApp-Image-2021-03-04-at-09.39.53-1.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto1 activo">•</li>
+                        <li class="punto1">•</li>
+                        <li class="punto1">•</li>
+                        <li class="punto1">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>PUEBLO ESCONDIDO</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Córdoba / Argentina</p>
+                        <p><span>Duración Trekking:</span> 2 Días / 1 Noche.</p>
+                        <p><span>Dificultad:</span> Baja</p>
+                        <p><span>Altura máxima alcanzada:</span> 1.942 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>Pueblo Escondido y Cerro Áspero están ubicados en las Sierras del límite 
+                            entre Córdoba y San Luis hacia el sudoeste del Valle de Calamuchita, en 
+                            plenas Sierras de los Comechingones. La proximidad con los cerros vecinos 
+                            convierten al Pueblo Escondido en un encajonado lugar. Allí convergen dos 
+                            vías de acceso y tres cristalinos arroyos que circulan por profundas quebradas, 
+                            formando saltos y cascadas.
+                            Este antiguo Pueblo minero abandonado era el albergue de los unos 400 
+                            mineros que trabajaban extrayendo Tungsteno. Hoy en día se encuentra 
+                            preparado como refugio, campamento de montaña contando con Bar, baños, 
+                            comedores y habitaciones.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande2">
+                        <img src="img/Actividades/Champaqui/02.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Champaqui/20210213_143831.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Champaqui/20210213_181409.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Champaqui/20210214_123650.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto2 activo">•</li>
+                        <li class="punto2">•</li>
+                        <li class="punto2">•</li>
+                        <li class="punto2">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>CHAMPAQUI</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Córdoba / Argentina</p>
+                        <p><span>Duración Trekking:</span> 2 Días/ 1 Noche.</p>
+                        <p><span>Dificultad:</span> Moderado</p>
+                        <p><span>Altura máxima alcanzada:</span> 2.790 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>El “Champa” es el techo de Córdoba ubicado en el Valle de 
+                            Calamuchita, el mismo representa un desafío para los viajeros que 
+                            se introducen al montañismo, y también para quienes desean vivir 
+                            esta maravillosa experiencia. Su cumbre alcanza los 2790 msnm y 
+                            es la más alta de Córdoba.
+                            La ruta clásica de ascenso comienza por Villa Alpina y toma 3 días, 
+                            para así tener una verdadera experiencia en contacto con la 
+                            montaña, durmiendo en refugios o carpa (a consideración de cada 
+                            grupo) y aprovechar el tiempo para conectarse con la naturaleza.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande3">
+                        <img src="img/Actividades/Cerro Tres Picos/IMG_2652.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Cerro Tres Picos/20211011_070405.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Cerro Tres Picos/20211010_183252.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Cerro Tres Picos/20211010_172043.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto3 activo">•</li>
+                        <li class="punto3">•</li>
+                        <li class="punto3">•</li>
+                        <li class="punto3">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>CERRO TRES PICOS</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Buenos Aires / Argentina</p>
+                        <p><span>Duración Trekking:</span> 2 Días/ 1 Noches.</p>
+                        <p><span>Dificultad:</span> Baja</p>
+                        <p><span>Altura máxima alcanzada:</span> 1.239 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>El Cerro Tres Picos de 1239 msnm, es la mayor elevación de toda la provincia 
+                            de Buenos Aires, y está ubicado en Sierra de la Ventana.
+                            Ubicado en el sudoeste de la provincia de Buenos Aires, a 550 kms de Capital 
+                            Federal y 80 kms de Bahía Blanca
+                            El sistema Ventania se divide en cinco cordones: cordón de Cura Malal, cordón 
+                            Bravard, cordón Esmeralda, cordón Pillahuinco y el más importante el cordón 
+                            de las Sierras de la Ventana, en la que se encuentran la cumbre del cerro Tres 
+                            Picos junto con otras cumbres importantes: C° Ventana, C° Napostá, C° Destierro Primero.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande4">
+                        <img src="img/Actividades/Cerro Serrata/cerro_serrata.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_153501.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_183837.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Tilcara/20210720_102013.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto4 activo">•</li>
+                        <li class="punto4">•</li>
+                        <li class="punto4">•</li>
+                        <li class="punto4">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>CERRO SERRATA</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Mendoza / Argentina</p>
+                        <p><span>Duración Trekking:</span> 3 Días/ 2 Noches.</p>
+                        <p><span>Dificultad:</span> Moderado / Alto</p>
+                        <p><span>Altura máxima alcanzada:</span> 4.229 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>El cerro Serrata con una altura de 4229 m.s.n.m- esta ubicado al fondo de la quebrada de Vargas, que se encuentra junto al camino internacional a Chile, entre Los Penitentes y Puente del Inca, el Serrata, guardián del paso hacia la quebrada del río Blanco, es una de las opciones más accesibles de esta zona para ascender una cumbre. Con poco más de 4200m de altitud y escasas dificultades técnicas es una buena oportunidad para conocer este rincón de los Andes argentinos.
+                            Desde la cumbre del Serrata es posible disfrutar de grandes vistas hacia cerros del sector, destacándose hacia el Norte, obviamente, el Aconcagua mientras que hacia el Oeste es el Gemelos, especialmente con el glaciar del Vasco, el que domina el panorama.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="item item-hide">
+                <div class="carrousel">
+                    <div class="grande5">
+                        <img src="img/Actividades/Cerro Penitentes/cerro_penitentes.jpg" alt="Imagen 1" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_153501.jpg" alt="Imagen 2" class="img">
+                        <img src="img/Actividades/Tilcara/20210719_183837.jpg" alt="Imagen 3" class="img">
+                        <img src="img/Actividades/Tilcara/20210720_102013.jpg" alt="Imagen 4" class="img">
+                    </div>
+                    <ul class="puntos">
+                        <li class="punto5 activo">•</li>
+                        <li class="punto5">•</li>
+                        <li class="punto5">•</li>
+                        <li class="punto5">•</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h2>CERRO PENITENTES</h2>
+                </div>
+                <div class="description">
+                    <div class="datos">
+                        <p><span>Ubicación:</span> Provincia de Mendoza / Argentina</p>
+                        <p><span>Duración Trekking:</span> 3 Días/ 2 Noches.</p>
+                        <p><span>Dificultad:</span> Moderado / Alto</p>
+                        <p><span>Altura máxima alcanzada:</span> 4.440 msnm</p>
+                    </div>
+                    <div class="info">
+                        <p>El Cerro Penitentes se encuentra ubicado solo un poco más arriba que el centro de esquí-invernal con el que comparte su nombre, “Penitentes”.  También está cerca de Puente del Inca, y a nada más que 4 km. del coloso de América: nuestro Cerro Aconcagua, de 6.962 msnm. del cual obtendremos una vista panorámica sorprendente.
+                            El cerro adquiere su nombre por el aspecto de sus formaciones rocosas, que se parecen mucho a aquellos monjes religiosos. Y a su vez, los planchones de nieve que allí se formaban generaban una semejanza con sus características vestimentas blancas.
+                        </p>
+                        <div>
+                            <div class="info_c">
+                                <p >Contactate con nosotros para conocer las fechas disponibles:</p>
+                                <span class="nav-link"><i class="far fa-envelope icon"></i> incahuasiexpediciones@gmail.com</span> 
+                                <span><a  class="nav-link" target="_blank" href="https://walink.co/126cf0"><i class="fab fa-whatsapp icon"></i>+54 221 3623211</a></span>
+                            </div> 
+                            <div class="info_cr">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100073686764400"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/incahuasiexpediciones/"><i class="fab fa-instagram-square"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCouiN7s4MoMisqpaARnKHAQ"><i class="fab fa-youtube"></i></a>
+                            </div>      
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
